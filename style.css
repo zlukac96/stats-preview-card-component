@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+	/* Primary */
+	--veryDarkBlue: hsl(233, 47%, 7%);
+	--darkDesaturatedBlue: hsl(244, 38%, 16%);
+	--softViolet: hsl(277, 64%, 61%);
+	/* Neutral */
+	--white: hsl(0, 0%, 100%);
+	--slightlyTransparentWhiteMain: hsla(0, 0%, 100%, 0.75);
+	--slightlyTransparentWhiteStat: hsla(0, 0%, 100%, 0.6);
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	min-height: 100vh;
+	background-color:var(--veryDarkBlue);
+	font-weight: 400;
+	color: var(--white);
+	font-family: 'Inter', sans-serif;
+}
+
+b{
+	font-weight: 700;
+}
+
+h1{
+	font-size: 32px;
+}
+
+.body-text{
+	font-size: 15px;
+}
+
+.subheading1{
+	font-size: 22px;
+}
+
+.subheading2{
+	font-size: 14px;
+	color: var(--slightlyTransparentWhiteStat);
+}
+
+.veryDarkBlue{
+	background-color:var(--veryDarkBlue);
+}
+.darkDesaturatedBlue{
+	background-color:var(--darkDesaturatedBlue);
+}
+.softViolet{
+	background-color:var(--softViolet);
+}
+.softVioletText{
+	color:var(--softViolet);
+}
+.white{
+	background-color:var(--white);
+}
+.slightlyTransparentWhiteMain{
+	background-color:var(--slightlyTransparentWhiteMain);
+}
+
+.slightlyTransparentWhiteMainText{
+	color: var(--slightlyTransparentWhiteMain);
+}
+
+.slightlyTransparentWhiteStat{
+	background-color:var(--slightlyTransparentWhiteStat);
+}
+
+.stats-preview-card{
+	width: 100%;
+	max-width: 900px;
+	/*height: 300px;*/
+	overflow: hidden;
+}
+
+.stats-preview-card img{
+	object-fit: cover;
+	max-height: 420px;
+}
+
+.picture-color-violet{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background-color: var(--softViolet);
+}
